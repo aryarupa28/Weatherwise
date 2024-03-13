@@ -84,7 +84,7 @@ def delete_weather():
 
 def fetch_weather():
     city = city_entry.get()
-    api_key = "7f44d50559f6c562f75b3299581c4079"
+    api_key = "2746b12c5b35c7350fbd258994c03393"
     url = f"https://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}"
     
     try:
